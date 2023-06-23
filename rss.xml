@@ -6,7 +6,7 @@
 	    <item>
       <title>bienvenue sur la launcher Ninicya!</title>
       <content:encoded>
-        <![CDATA[<p>&lt;span style="font-size:50px;"&gt;test.&lt;/span&gt;
+        <![CDATA[<p>&lt;font size="5"&gt;Ceci est un exemple de texte.&lt;/font&gt;</p>
         ]]>
       </content:encoded>
       <author>Ninicorp</author>
