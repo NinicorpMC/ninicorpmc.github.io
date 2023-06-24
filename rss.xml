@@ -23,7 +23,6 @@
         ]]>
       </content:encoded>
       <author>Ninicorp</author>
-      <pubDate>21 juin 2023</pubDate>
 	</item>
     <item>
       <title>Presentation du serveur Ninicya!</title>
@@ -37,7 +36,7 @@
 <p>En ce qui concerne le PvP, bien qu'il soit présent dans Ninicya, il n'est pas au centre de l'expérience de jeu. Notre serveur met l'accent sur l'aventure, les métiers et les quêtes, offrant ainsi une expérience plus axée sur la coopération et la découverte.</p></br>
 	]]>
       </content:encoded>
-      <pubDate>21 juin 2023</pubDate>
+      <author>Ninicorp</author>
   </item>
   </channel>
 </rss>
