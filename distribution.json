@@ -1,0 +1,802 @@
+{
+  "version": "1.0.0",
+  "rss": "https://ninicorpmc.github.io/rss.xml",
+  "discord": {
+    "clientId": "1104352136818589736",
+    "smallImageText": "Change me through Nebula",
+    "smallImageKey": "big"
+  },
+  "servers": [
+    {
+      "id": "NiniCya-1.12.2",
+      "name": "Ninicya (a0.90)",
+      "description": "Serveur MMORPG Minecraft",
+      "icon": "https://cdn.discordapp.com/attachments/1071406719936237631/1104167258567221398/icone_serveur.png",
+      "version": "a0.82",
+      "address": "join.ninicya.fr:25565",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "WesterosCraft Demo",
+        "largeImageKey": "westeroscraft",
+        "largeImageText": "Change me through Nebula"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.12.2-14.23.5.2859:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 4466108,
+            "MD5": "fda01cd3cae80c2c6348ac3fc26e0af8",
+            "url": "https://www.dropbox.com/s/ibdniiiledro0wg/forge-1.12.2-14.23.5.2859-universal.jar?dl=1"
+          },
+          "subModules": [
+            {
+              "id": "1.12.2-14.23.5.2859",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12345,
+                "MD5": "1959bb357e54a9666dd80d744b524639",
+                "url": "https://www.dropbox.com/s/99ioy5tsi6bqx2g/1.12.2-forge-14.23.5.2859.json?dl=1"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-debug-all:5.2@jar",
+              "name": "Minecraft Forge (asm-debug-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 387903,
+                "MD5": "fe5f20404ccdee9769ef05dc4b47ba98",
+                "url": "https://www.dropbox.com/s/d032uq871p43mcb/asm-debug-all-5.2.jar?dl=1"
+              }
+            },
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://www.dropbox.com/s/17imb1chzndkfz5/launchwrapper-1.12.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.5.1@jar",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 614590,
+                "MD5": "4c20d2879ed2bd75a0771ce29e89f6b0",
+                "url": "https://www.dropbox.com/s/1vfbb0px9kkv0ou/jline-3.5.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://www.dropbox.com/s/9puq8q1i8zctfnz/akka-actor_2.11-2.3.3.jar?dl=1"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://www.dropbox.com/s/2hxi7p5b82t1ql7/config-1.2.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://www.dropbox.com/s/8jookoh96f9ozr8/scala-actors-migration_2.11-1.1.0.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://www.dropbox.com/s/cqed46re233xtst/scala-compiler-2.11.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://www.dropbox.com/s/a9tilofe6nfjwol/scala-continuations-library_2.11-1.0.2_mc.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2_mc@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://www.dropbox.com/s/11p3jxr0y83syn4/scala-continuations-plugin_2.11.1-1.0.2_mc.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://www.dropbox.com/s/yfbbbr7l00mx5v8/scala-library-2.11.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://www.dropbox.com/s/oeoh8oq5ryp88q9/scala-parser-combinators_2.11-1.0.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://www.dropbox.com/s/scf7lh66heqo49x/scala-reflect-2.11.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://www.dropbox.com/s/ajm1wipn5q7njuq/scala-swing_2.11-1.0.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://www.dropbox.com/s/lb05rpy7rswtfh3/scala-xml_2.11-1.0.2.jar?dl=1"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://www.dropbox.com/s/hjy9zyezs4oyony/lzma-0.0.1.jar?dl=1"
+              }
+            },
+            {
+              "id": "java3d:vecmath:1.5.2@jar",
+              "name": "Minecraft Forge (vecmath)",
+              "type": "Library",
+              "artifact": {
+                "size": 318956,
+                "MD5": "e5d2b7f46c4800a32f62ce75676a5710",
+                "url": "https://www.dropbox.com/s/6hzaruz5059xxrj/vecmath-1.5.2.jar?dl=1"
+              }
+            },
+            {
+              "id": "net.sf.trove4j:trove4j:3.0.3@jar",
+              "name": "Minecraft Forge (trove4j)",
+              "type": "Library",
+              "artifact": {
+                "size": 2523218,
+                "MD5": "8fc4d4e0129244f9fd39650c5f30feb2",
+                "url": "https://www.dropbox.com/s/f50fftqricy361x/trove4j-3.0.3.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.5.3@jar",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 54961,
+                "MD5": "7741ebf29690ee7d9dde9cf4376347fc",
+                "url": "https://www.dropbox.com/s/5ltgvwi9ulhtvld/maven-artifact-3.5.3.jar?dl=1"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.3@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78175,
+                "MD5": "0a5ec84e23df9d7cfb4063bc55f2744c",
+                "url": "https://www.dropbox.com/s/03e39vhn1kwhlsv/jopt-simple-5.0.3.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "https://www.dropbox.com/s/d8m5bhstfyndb3z/log4j-api-2.15.0.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "https://www.dropbox.com/s/kokvtkmghyzukxt/log4j-core-2.15.0.jar?dl=1"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0@jar",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "https://www.dropbox.com/s/b15lyfg6foikej6/log4j-slf4j18-impl-2.15.0.jar?dl=1"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.creativemd:creativecore:1.10@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1288227,
+            "url": "https://www.dropbox.com/s/tgnz5yu1j37tdum/CreativeCore_v1.10.56_mc1.12.2.jar?dl=1",
+            "MD5": "f2bd3e68e470ff5c075ad40c407c7b9c"
+          }
+        },
+        {
+          "id": "com.ambientsounds:ambientsounds_v3.0.16_mc1.12.2@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76507433,
+            "url": "https://www.dropbox.com/s/1da4l9eaznb3mpf/AmbientSounds_v3.0.16_mc1.12.2.jar?dl=1",
+            "MD5": "15641937e36623e698e947f51e8cc53d"
+          }
+        },
+        {
+          "id": "com.colorfularmor:colorfularmor-1.12.2-1.1@jar",
+          "name": "Colorfularmor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 578759,
+            "url": "https://www.dropbox.com/s/jd501f0re17c7v3/colorfularmor-1.12.2-1.1.jar?dl=1",
+            "MD5": "1e1fdbe28e36a73cfa6c947285c5ed12"
+          }
+        },
+        {
+          "id": "com.csai:csai-1.0@jar",
+          "name": "csai",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 226419,
+            "url": "https://www.dropbox.com/s/nb4p01l1on7iicp/csai-1.0.jar?dl=1",
+            "MD5": "2e3a9e85b45dac431a7df89b9229c80e"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.12.2_HD_U_G5@jar",
+          "name": "OptiFine 1.12.2_HD_U_G5",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2669107,
+            "url": "https://www.dropbox.com/s/um76hqlyhg9t6ml/OptiFine_1.12.2_HD_U_G5.jar?dl=1",
+            "MD5": "54e561e441192cf009803ae95873c5d0"
+          }
+        },
+        {
+          "id": "com.customnpcs:customnpcs_1.12.2-(05Jul20)@jar",
+          "name": "CustomNPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9911871,
+            "url": "https://www.dropbox.com/s/b3x8702f18tk4w3/CustomNPCs_1.12.2-%2805Jul20%29.jar?dl=1",
+            "MD5": "3ab1a5c4b069d574631da5bc1880ebf7"
+          }
+        },
+        {
+          "id": "com.epiccraftingsplus:epiccraftingsplus@jar",
+          "name": "EpicCraftingsPlus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 256316,
+            "url": "https://www.dropbox.com/s/yb5xblwcjbiuz8q/EpicCraftingsPlus.jar?dl=1",
+            "MD5": "5dcafcc855b02c81de522d0c5a525661"
+          }
+        },
+        {
+          "id": "com.Huyos:Huyos:13@jar",
+          "name": "Huyos",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1597814,
+            "url": "https://www.dropbox.com/s/oc0rnffw7iifdkn/Huyos13.jar?dl=1",
+            "MD5": "6B3447DA8E3B5CF3032E7F0ED0EF73B7"
+          }
+        },
+        {
+          "id": "com.moarores:moarores-mod-1.12.2",
+          "name": "MoarOres",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 190321,
+            "url": "https://www.dropbox.com/s/2pg7wb8o2rngelz/MoarOres-Mod-1.12.2.jar?dl=1",
+            "MD5": "a5be8f6186151ada8c335f7267f6ad7e"
+          }
+	    },
+        {
+          "id": "com.neat+:neat+:1.4-17@jar",
+          "name": "Neat+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18587,
+            "url": "https://www.dropbox.com/s/1so8rpt8fvcqaov/Neat%2B1.4-17.jar?dl=1",
+            "MD5": "c371deab2490ecd6a2689eed09302d23"
+          }
+        },
+        {
+          "id": "com.ninicya1.16:ninicya_1.16_mod@jar",
+          "name": "Ninicya1.16",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8470658,
+            "url": "https://www.dropbox.com/s/cimaiu8qxg6ej5n/ninicya%201.16%20mod.jar?dl=1",
+            "MD5": "704166bcd496d6c50ecb4338c123a47a"
+          }
+	    },
+        {
+          "id": "com.ninicya-item:ninicya-item@jar",
+          "name": "Ninicya-Item",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 56196,
+            "url": "https://www.dropbox.com/s/7z4bmzf6n1g4o3i/Ninicya-Item.jar?dl=1",
+            "MD5": "8787724809c3d6df11e3f42a8a482665"
+          }
+		},
+        {
+          "id": "com.u_team_core:u_team_core-1.12.2:2.2.5.147@jar",
+          "name": "u_team_core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 320974,
+            "url": "https://www.dropbox.com/s/n18dupwwa9pth2k/u_team_core-1.12.2-2.2.5.147.jar?dl=1",
+            "MD5": "09a9a6622665d03e1b3de8bb2aa8c585"
+          }
+		},
+        {
+          "id": "com.useful_backpacks:useful_backpacks-1.12.2:1.5.3.59@jar",
+          "name": "useful_backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61432,
+            "url": "https://www.dropbox.com/s/n6sdta6lhn4lkov/useful_backpacks-1.12.2-1.5.3.59.jar?dl=1",
+            "MD5": "e83119787316967e6fb2bad95d6227c5"
+          }
+		},
+        {
+          "id": "com.worldedit-forge:worldedit-forge-mc1.12.2:6.1.10@jar",
+          "name": "Worldedit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1479535,
+            "url": "https://www.dropbox.com/s/rno7wg8ou83wan7/worldedit-forge-mc1.12.2-6.1.10-dist.jar?dl=1",
+            "MD5": "bdf6d8d20591c014fed66633f4ef3b23"
+		  }
+      },
+      {
+         "id": "com.Armourers-Workshop:Armourers-Workshop-1.12.2:0.51.0@jar",
+         "name": "Armourers Workshop",
+         "type": "ForgeMod",
+         "artifact": {
+           "size": 2678747,
+           "url": "https://www.dropbox.com/s/kb14c6li3bfw7hl/Armourers-Workshop-1.12.2-0.51.0.jar?dl=1",
+           "MD5": "12954551f39bed840b32fd8be8fddb54"
+         }
+	  },
+      {
+         "id": "com.VariedCommodities:VariedCommodities@jar",
+         "name": "Varied Commodities",
+         "type": "ForgeMod",
+         "artifact": {
+           "size": 1766394,
+           "url": "https://www.dropbox.com/s/nlsme3wzl842qbb/VariedCommodities_1.12.2-31Mar23.jar?dl=1",
+           "MD5": "517cf8b1f3443b9fe1203ddf324eff69"
+         }
+		},
+        {
+          "id": "com.xaeros_minimap:xaeros_minimap:4.0@jar",
+          "name": "Xaeros Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1507932,
+            "url": "https://www.dropbox.com/s/xj105igo6i0we76/Xaeros_Minimap_FP23.4.0_Forge_1.12.jar?dl=1",
+            "MD5": "0251f7798e81f210a0360d35601a8628"
+		  }
+		},
+        {
+          "id": "com.XL-Food-Mod:XL-Food-Mod-1.12.2:1.9.2@jar",
+          "name": "XL Food Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 400208,
+            "url": "https://www.dropbox.com/s/8vaqahuxfgyomd5/XL-Food-Mod-1.12.2-1.9.2.jar?dl=1",
+            "MD5": "99996774ced05042e9955d76ed8c8d19"
+		  }
+		},
+        {
+          "id": "com.ForgeDiscordRPC:ForgeDiscordRPC-1.12.2:1.3.0@jar",
+          "name": "ForgeDiscordRPC",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2085730,
+            "url": "https://www.dropbox.com/s/v2mwk8caaqne11l/ForgeDiscordRPC-1.12.2-1.3.0.jar?dl=1",
+            "MD5": "3130499fd04c4a41af49338c588c79ba"
+		  }
+		},
+        {
+          "id": "com.BiblioCraft:BiblioCraft:[v2.4.6]@jar",
+          "name": "BiblioCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5185177,
+            "url": "https://www.dropbox.com/s/3fmgkzfal68pstt/BiblioCraft%5Bv2.4.6%5D%5BMC1.12.2%5D.jar?dl=1",
+            "MD5": "C10B7D250BDEB1EFEDF17B4B0C40C573"
+		  }
+		},
+        {
+          "id": "com.BiomesYouGo:BiomesYouGo:1.7.1@jar",
+          "name": "BiomesYouGo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10937946,
+            "url": "https://www.dropbox.com/s/k48c6upwqa9o7aj/BiomesYouGo1.7.1.jar?dl=1",
+            "MD5": "AD04F6E9664A48FCD96056C7B6A99944"
+		  }
+		},
+        {
+          "id": "com.DynamicLights:DynamicLights:1.12.2@jar",
+          "name": "DynamicLights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 102000,
+            "url": "https://www.dropbox.com/s/b85n2aa7hqpr4ja/DynamicLights-1.12.2.jar?dl=1",
+            "MD5": "BBF46497E737F88BBFEB8CCE74FB3099"
+		  }
+		},
+        {
+          "id": "com.ironagefurniture:ironagefurniture+1.12.2:v0.2.0.5@jar",
+          "name": "ironagefurniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3399595,
+            "url": "https://www.dropbox.com/s/ojv53smxcwi263i/ironagefurniture%2B1.12.2%2Bv0.2.0.5.jar?dl=1",
+            "MD5": "0692F4D96573E9388D6269586D95ED46"
+		  }
+		},
+        {
+          "id": "com.mcw-furniture:mcw-furniture:1.0.1@jar",
+          "name": "mcw-furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 593528,
+            "url": "https://www.dropbox.com/s/13xwxnl9ndinh1u/mcw-furniture-1.0.1-mc1.12.2beta.jar?dl=1",
+            "MD5": "ACD3FCF4549E81D7B179B4C213927E5D"
+		  }
+		},
+        {
+          "id": "com.rustic:rustic:1.1.7@jar",
+          "name": "rustic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1400465,
+            "url": "https://www.dropbox.com/s/2o8mi1z9lf4yi42/rustic-1.1.7.jar?dl=1",
+            "MD5": "E5FC580C4F69DD2E8B830EF2D814E34F"
+		  }
+		},
+        {
+          "id": "com.betteranimalsplus:betteranimalsplus-1.12.2:9.0.1@jar",
+          "name": "betteranimalsplus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8211365,
+            "url": "https://www.dropbox.com/s/kps4s2u4h5s0gx7/betteranimalsplus-1.12.2-9.0.1.jar?dl=1",
+            "MD5": "154144D50500329125DEAC9304C4C23F"
+		  }
+        },
+        {
+          "id": "betterfoliage.cfg",
+          "name": "betterfoliage.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 7409,
+            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/betterfoliage.cfg",
+            "MD5": "fa6f5224ce68059be075c1c25610c13f",
+            "path": "config/betterfoliage.cfg"
+          }
+        },
+        {
+          "id": "creativecore-client.json",
+          "name": "creativecore-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 236,
+            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/creativecore-client.json",
+            "MD5": "d1c26a8be7d2031a02d4b3aca3d1c503",
+            "path": "config/creativecore-client.json"
+          }
+        },
+        {
+          "id": "fdrpc.cfg",
+          "name": "fdrpc.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 1997,
+            "url": "https://www.dropbox.com/s/0la3ihy6zvjdokk/fdrpc.cfg?dl=1",
+            "MD5": "90179a18e2b175583ecf5cbcc84dbf43",
+            "path": "config/fdrpc/fdrpc.cfg"
+          }
+		},
+        {
+          "id": "neat.cfg",
+          "name": "neat.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 961,
+            "url": "https://www.dropbox.com/s/fxbildwx4rk8rlf/neat.cfg?dl=1",
+            "MD5": "E953B81EB5DA59CA1AD810F00E90F7EF",
+            "path": "config/neat.cfg"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3955,
+            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/forge.cfg",
+            "MD5": "bee77d51b82699b95bf5c02788f654fb",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2206,
+            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/forgeChunkLoading.cfg",
+            "MD5": "95ba05ef01861ee260b40c95e9cc5aec",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        },
+        {
+          "id": "opframe-client.json",
+          "name": "opframe-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 34,
+            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/opframe-client.json",
+            "MD5": "b0dc09d08f2ec719a8907aaa2d77c96e",
+            "path": "config/opframe-client.json"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 180,
+            "url": "https://www.dropbox.com/s/xrulvo6rz5nfu5b/client.cfg?dl=1",
+            "MD5": "3c98fc03f7b868e09630a0e0615069a2",
+            "path": "config/uteamcore/client.cfg"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "artifact": {
+            "size": 375,
+            "url": "https://helios-files.geekcorner.eu.org/servers/WesterosCraft-Demo-1.12.2/files/config/splash.properties",
+            "MD5": "ae51f2863230f87e74776d46f86e668d",
+            "path": "config/splash.properties"
+          }
+		},
+        {
+          "id": "Mort-Vivant.json",
+          "name": "Mort-Vivant.json",
+          "type": "File",
+          "artifact": {
+            "size": 97,
+            "url": "https://www.dropbox.com/s/kf6ivvopyu9mhxw/Mort-Vivant.json?dl=1",
+            "MD5": "8342971af1d5940f7278917f37b49337",
+            "path": "customnpcs/clones/1/Mort-Vivant.json"
+          }
+		},
+        {
+          "id": "txt_default.ogg",
+          "name": "txt_default.ogg",
+          "type": "File",
+          "artifact": {
+            "size": 5830,
+            "url": "https://www.dropbox.com/s/7erx9yishrbn5z5/txt_default.ogg?dl=1",
+            "MD5": "92eca8c0ab51d72dfb1c70d8894fca55",
+            "path": "customnpcs/assets/customnpcs/sounds/txt_default.ogg"
+          }
+		},
+        {
+          "id": "chatbox.png",
+          "name": "chatbox.png",
+          "type": "File",
+          "artifact": {
+            "size": 30470,
+            "url": "https://www.dropbox.com/s/z87dedotdgflnmw/chatbox.png?dl=1",
+            "MD5": "9bfe962635cd8e04b70a22d21cf36610",
+            "path": "customnpcs/assets/customnpcs/textures/gui/chatbox.png"
+          }
+		},
+        {
+          "id": "blank.png",
+          "name": "blank.png",
+          "type": "File",
+          "artifact": {
+            "size": 2796,
+            "url": "https://www.dropbox.com/s/wqoc0m024qstgx1/blank.png?dl=1",
+            "MD5": "fa8d8c5a1a897585f7a012511b281a41",
+            "path": "customnpcs/assets/customnpcs/textures/gui/blank.png"
+          }
+		},
+        {
+          "id": "banjo.png",
+          "name": "banjo.png",
+          "type": "File",
+          "artifact": {
+            "size": 2845,
+            "url": "https://www.dropbox.com/s/van3fj208zof7go/banjo.png?dl=1",
+            "MD5": "a65607e036dc1037274a8c1487edabc4",
+            "path": "customnpcs/assets/customnpcs/textures/npc/banjo.png"
+          }
+        },
+        {
+          "id": "default.png",
+          "name": "default.png",
+          "type": "File",
+          "artifact": {
+            "size": 3825,
+            "url": "https://www.dropbox.com/s/6vadj8suj7bnb7z/default.png?dl=1",
+            "MD5": "6bc4e71b8806f804f6e932dd38e0cc0f",
+            "path": "customnpcs/assets/customnpcs/textures/npc/portrait/default.png"
+          } 
+        },
+        {
+          "id": "sad.png",
+          "name": "sad.png",
+          "type": "File",
+          "artifact": {
+            "size": 3825,
+            "url": "https://www.dropbox.com/s/2jwvshnd17dq59q/sad.png?dl=1",
+            "MD5": "6bc4e71b8806f804f6e932dd38e0cc0f",
+            "path": "customnpcs/assets/customnpcs/textures/npc/default/sad.png"
+          }
+        },
+        {
+          "id": "anger.png",
+          "name": "anger.png",
+          "type": "File",
+          "artifact": {
+            "size": 3825,
+            "url": "https://www.dropbox.com/s/gs381a9ex5o3q3g/anger.png?dl=1",
+            "MD5": "6bc4e71b8806f804f6e932dd38e0cc0f",
+            "path": "customnpcs/assets/customnpcs/textures/npc/default/anger.png"
+          }
+        },
+        {
+          "id": "happy.png",
+          "name": "happy.png",
+          "type": "File",
+          "artifact": {
+            "size": 3825,
+            "url": "https://www.dropbox.com/s/zcsmxs5p97kuito/happy.png?dl=1",
+            "MD5": "6bc4e71b8806f804f6e932dd38e0cc0f",
+            "path": "customnpcs/assets/customnpcs/textures/npc/default/happy.png"
+          }		  
+		},
+        {
+          "id": "sounds.json",
+          "name": "sounds.json",
+          "type": "File",
+          "artifact": {
+            "size": 11252,
+            "url": "https://www.dropbox.com/s/z60199stexhwnup/sounds.json?dl=1",
+            "MD5": "cacc6442681dcfff3817453dab1901d3",
+            "path": "customnpcs/assets/customnpcs/sounds.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2911,
+            "url": "https://www.dropbox.com/s/ilmpms4sus7u1hx/options.txt?dl=1",
+            "path": "options.txt"
+			},
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 68,
+            "url": "https://www.dropbox.com/scl/fi/ag0aamhm0990jzj1vy55l/servers.dat?rlkey=kmnwu3bz5qlyqfs4763xi4g6x&dl=1",
+            "path": "servers.dat"
+          }
+        },
+        {
+          "id": "ninicya_ressourcepack.zip",
+          "name": "ninicya_ressourcepack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 213251487,
+            "url": "https://www.dropbox.com/s/wx233f6kxoaukqy/ninicya_ressourcepack.zip?dl=1",
+            "MD5": "6C9BD9DE7A43805299EF9B17EAB6FF97",
+            "path": "resourcepacks/ninicya_ressourcepack.zip"
+          }
+		},
+        {
+          "id": "ninicya_ressourcepack_MODE_STREAMER.zip",
+          "name": "ninicya_ressourcepack_MODE_STREAMER.zip",
+          "type": "File",
+          "artifact": {
+            "size": 10879928,
+            "url": "https://www.dropbox.com/s/2zr9gqhcsr7bqwk/ninicya_ressourcepack_MODE_STREAMER.zip?dl=1",
+            "MD5": "759213f9e71a64f0154b3d6751f0d106",
+            "path": "resourcepacks/ninicya_ressourcepack_MODE_STREAMER.zip"
+          }
+        },
+        {
+          "id": "BSL_v8.2.02.zip",
+          "name": "BSL_v8.2.02.zip",
+          "type": "File",
+          "artifact": {
+            "size": 928246,
+            "url": "https://drive.google.com/u/0/uc?id=103m7GhiFKNZWEcI4ZfYgII3MEPjwPZA-&export=download",
+            "MD5": "563f28f22c8843e5671525e5e855953b",
+            "path": "shaderpacks/BSL_v8.2.02.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
